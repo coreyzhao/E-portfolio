@@ -8,11 +8,11 @@ export const navigation = [
     title: "Experience",
     url: "#experience",
   },
-  {
-    id: "1",
-    title: "Techincal Skills",
-    url: "#skills",
-  },
+  // {
+  //   id: "1",
+  //   title: "Techincal Skills",
+  //   url: "#skills",
+  // },
   {
     id: "2",
     title: "Projects",
@@ -159,3 +159,62 @@ export const skills = [
   
 ];
 
+
+export const skills1 = [
+
+  
+  {
+    id: "0",
+    title: "JavaScript",
+    
+  },
+  {
+    id: "0",
+    title: "TypeScript",
+    
+  },
+  {
+    id: "0",
+    title: "React.js",
+    
+  },
+  {
+    id: "0",
+    title: "Express.js",
+    
+  },
+  
+  
+  {
+    id: "0",
+    title: "Git",
+    
+  },
+  
+  
+  
+];
+
+export const skills2 = [
+
+  
+  {
+    id: "0",
+    title: "TypeScript",
+    
+  },
+  
+  {
+    id: "0",
+    title: "JavaScript",
+    
+  },
+  {
+    id: "0",
+    title: "Solidity",
+    
+  },
+  
+  
+  
+];
