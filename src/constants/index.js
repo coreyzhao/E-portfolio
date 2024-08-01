@@ -1,6 +1,7 @@
 
 
 import coreyzh from '../assets/coreyzhwebmern.jpeg';
+import quickapply from '../assets/quickapply.png'
 
 export const navigation = [
   {
@@ -38,7 +39,7 @@ export const projects = [
     text: "Helps job seekers plan and manage their job search",
     date: "AUGUST 2023",
     status: "done",
-    imageUrl: coreyzh,
+    imageUrl: quickapply,
     colorful: true,
     technologies: ["SpringBoot", "React", "MongoDB", "Docker", "AWS"],
   },
