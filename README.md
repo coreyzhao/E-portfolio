@@ -17,7 +17,7 @@ A modern and responsive e-portfolio built using React and JavaScript. This proje
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/e-portfolio.git
+    git clone https://github.com/coreyzhao/E-portfolio.git
     ```
 2. Navigate to the project directory:
     ```bash
