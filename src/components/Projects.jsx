@@ -54,7 +54,7 @@ const Projects = () => (
                   <h4 className="h4 mb-4 font-inter font-medium">{item.title}</h4>
                   <p className="body-2 text-n-4 mb-10">{item.text}</p>
 
-                  <div className="flex flex-wrap justify-start gap-5 mb-20 mx-3">
+                  <div className="flex flex-wrap justify-start gap-5 mb-20">
                     {skills.map((item) => (
                       <div
                         className="block relative py-1.5 px-4 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl  md:max-w-[24rem]"
