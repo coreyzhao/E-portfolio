@@ -36,12 +36,12 @@ export const projects = [
   {
     id: "0",
     title: "QuickApply",
-    text: "Helps job seekers plan and manage their job search",
-    date: "AUGUST 2023",
+    text: "Web app to help job seekers plan and order their job search. Create an account to save essential links and organize job applications with unique notes and statuses",
+    date: "JUN 2024 - AUG 2024",
     status: "done",
     imageUrl: quickapply,
     colorful: true,
-    technologies: ["SpringBoot", "React", "MongoDB", "Docker", "AWS"],
+    technologies: ["SpringBoot", "Java", "TypeScript", "MongoDB", "React",  "Docker", "AWS"],
   },
   {
     id: "1",

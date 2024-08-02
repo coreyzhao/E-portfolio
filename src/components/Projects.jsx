@@ -51,17 +51,17 @@ const Projects = () => (
                       alt={item.title}
                     />
                   </div>
-                  <h4 className="h4 mb-4">{item.title}</h4>
+                  <h4 className="h4 mb-4 font-inter font-medium">{item.title}</h4>
                   <p className="body-2 text-n-4 mb-10">{item.text}</p>
 
                   <div className="flex flex-wrap justify-start gap-5 mb-20 mx-3">
                     {skills.map((item) => (
                       <div
-                        className="block relative py-2 px-5 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl  md:max-w-[24rem]"
+                        className="block relative py-1.5 px-4 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl  md:max-w-[24rem]"
                         
                         key={item.id}
                       >
-                          <h7 className="h7 align-middle">{item}</h7>
+                          <h7 className="text-sm align-middle">{item}</h7>
                       </div>
                     ))}
                   </div>
