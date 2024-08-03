@@ -6,6 +6,7 @@ import { projects } from "../constants";
 import check2  from "../assets/check-02.svg";
 import loading1 from "../assets/loading-01.svg";
 import { Gradient } from "./design/Roadmap";
+import arrow_top_right from "../assets/arrow_top_right_bright.png"
 
 const Projects = () => (
   <Section className="overflow-hidden" id="projects">
@@ -16,6 +17,10 @@ const Projects = () => (
         {projects.map((item) => {
           const status = item.status === "done" ? "Done" : "In progress";
           const skills = item.technologies;
+
+          const handleClick = () => {
+            window.location.href = 'https://www.youtube.com';
+          };
 
           return (
             <div
@@ -65,6 +70,15 @@ const Projects = () => (
                       </div>
                     ))}
                   </div>
+                  <a className="" href={item.link} target="blank">
+                    <div
+                      className="inline-flex items-center h-[3.5rem] px-4 bg-n-8/80 rounded-[1.4rem] transition-all duration-300 cursor-pointer hover:bg-n-9/40 hover:backdrop-blur-md"
+                    >
+                      View Project
+                      <img className="w-5 h-5 ml-1" src={arrow_top_right} alt="Loading" />
+                    </div>
+                  </a>
+
                 </div>
               </div>
             </div>

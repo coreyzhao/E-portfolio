@@ -42,6 +42,7 @@ export const projects = [
     imageUrl: quickapply,
     colorful: true,
     technologies: ["SpringBoot", "Java", "TypeScript", "MongoDB", "React.js", "JWT", "Docker", "AWS"],
+    link: "https://github.com/kevinliu399/QuickApply"
   },
   {
     id: "1",
@@ -51,6 +52,7 @@ export const projects = [
     status: "done",
     imageUrl: coreyzh,
     technologies: ["JavaScript", "Node.js", "Express.js", "MongoDB", "TikTok API", "JWT"],
+    link: "https://github.com/coreyzhao/coreyzhweb"
   },
   {
     id: "2",
@@ -60,6 +62,7 @@ export const projects = [
     status: "done",
     imageUrl: coreyzh,
     technologies: ["React", "Node.js", "Express.js", "MongoDB"],
+    link: "https://github.com/kevinliu399/QuickApply"
   },
   {
     id: "3",
@@ -69,6 +72,7 @@ export const projects = [
     status: "progress",
     imageUrl: coreyzh,
     technologies: ["React", "Node.js", "Express.js", "MongoDB"],
+    link: "https://github.com/kevinliu399/QuickApply"
   },
 ];
 
