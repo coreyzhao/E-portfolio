@@ -22,9 +22,12 @@ const Home = () => {
       customPaddings
       id="home"
     >
+      <div className="hidden md:block">
       <GradientLight />
-
       <GradientLightLeft />
+        </div>
+        
+      
       <Heading
           title="Corey Zhao"
           text="Hi there, I'm Corey! I'm an undergraduate of McGill's Class of 2026 and my passion is Computer Science. My interests include software design, cloud technologies and web development."
@@ -32,7 +35,7 @@ const Home = () => {
       
       
 
-      <div className="container relative" ref={parallaxRef}>
+      <div className="container relative flex justify-center items-center" ref={parallaxRef}>
         
         
         

@@ -24,12 +24,7 @@ export const navigation = [
     title: "Email",
     url: "#email",
   },
-  {
-    id: "5",
-    title: "ENG / FR",
-    url: "#lang",
-    onlyMobile: true,
-  },
+  
 ];
 
 export const projects = [

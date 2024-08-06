@@ -21,7 +21,7 @@ const Experience = () => {
           
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[28rem] border border-n-1/10 rounded-3xl overflow-hidden">
+            <div className="relative min-h-[32rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 
               </div>
@@ -51,7 +51,7 @@ const Experience = () => {
               
             </div>
 
-            <div className="relative min-h-[28rem] border border-n-1/10 rounded-3xl overflow-hidden">
+            <div className="relative min-h-[32rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 
               </div>
