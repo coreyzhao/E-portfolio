@@ -36,7 +36,7 @@ export const projects = [
     status: "done",
     imageUrl: quickapply,
     colorful: true,
-    technologies: ["SpringBoot", "Java", "TypeScript", "MongoDB", "React.js", "JWT", "Docker", "AWS"],
+    technologies: ["SpringBoot", "Java", "TypeScript", "MongoDB", "React.js", "Docker", "AWS", "REST API"],
     link: "https://github.com/kevinliu399/QuickApply"
   },
   {
@@ -46,29 +46,10 @@ export const projects = [
     date: "Jul 2023 - Jan 2024",
     status: "done",
     imageUrl: coreyzh,
-    technologies: ["JavaScript", "Node.js", "Express.js", "MongoDB", "TikTok API", "JWT"],
+    technologies: ["JavaScript", "Node", "Express.js", "MongoDB", "TikTok API", "JWT Auth"],
     link: "https://github.com/coreyzhao/coreyzhweb"
   },
-  {
-    id: "2",
-    title: "Fitness Helper",
-    text: "Helps User learn about fitness and explore new exercises.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: coreyzh,
-    technologies: ["React", "Node.js", "Express.js", "MongoDB"],
-    link: "https://github.com/kevinliu399/QuickApply"
-  },
-  {
-    id: "3",
-    title: "Fitness Helper",
-    text: "Helps User learn about fitness and explore new exercises.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: coreyzh,
-    technologies: ["React", "Node.js", "Express.js", "MongoDB"],
-    link: "https://github.com/kevinliu399/QuickApply"
-  },
+  
 ];
 
 

@@ -88,11 +88,14 @@ const Projects = () => (
         <Gradient />
       </div>
 
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-      <a href="mailto:coreyzh2004@gmail.com" target="_blank" rel="noopener noreferrer">
-        <Button>Email Me!</Button>
-      </a>
-</div>
+      <Section id="email">
+        <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+          <a href="mailto:coreyzh2004@gmail.com" target="_blank" rel="noopener noreferrer">
+            <Button>Email Me!</Button>
+          </a>
+        </div>
+      </Section>
+      
 
     </div>
   </Section>
