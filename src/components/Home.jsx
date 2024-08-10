@@ -35,7 +35,7 @@ const Home = () => {
       
       
 
-      <div className="container relative flex justify-center items-center" ref={parallaxRef}>
+      <div data-testid="cypress-title" className="container relative flex justify-center items-center" ref={parallaxRef}>
         
         
         
