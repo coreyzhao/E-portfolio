@@ -1,7 +1,8 @@
 
 
 import coreyzh from '../assets/coreyzhwebmern.jpeg';
-import quickapply from '../assets/quickapply.png'
+import quickapply from '../assets/quickapply.png';
+import csdotnet from '../assets/csdotnet.png';
 
 export const navigation = [
   {
@@ -41,6 +42,16 @@ export const projects = [
   },
   {
     id: "1",
+    title: "AuthRegistrationAPI",
+    text: "REST API using C# and .NET Core, designed for secure user registration and authentication. The API incorporates JWT-based authentication, password hashing and a SQL Server database.",
+    date: "Jul 2024 - Present",
+    status: "Ongoing",
+    imageUrl: csdotnet,
+    technologies: ["C#", ".NET Core", "SQL", "JWT", "REST API", "Azure"],
+    link: ""
+  },
+  {
+    id: "2",
     title: "coreyzh website",
     text: "Website built for my personal Instagram account coreyzh. View all my posts through a sectioned home page. Create an account to leave notes and posts in the community section.",
     date: "Jul 2023 - Jan 2024",
@@ -49,6 +60,7 @@ export const projects = [
     technologies: ["JavaScript", "Node", "Express.js", "MongoDB", "TikTok API", "JWT Auth"],
     link: "https://github.com/coreyzhao/coreyzhweb"
   },
+  
   
 ];
 
