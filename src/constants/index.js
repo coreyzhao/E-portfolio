@@ -44,11 +44,11 @@ export const projects = [
     id: "1",
     title: "AuthRegistrationAPI",
     text: "REST API using C# and .NET Core, designed for secure user registration and authentication. The API incorporates JWT-based authentication, password hashing and a SQL Server database.",
-    date: "Jul 2024 - Present",
+    date: "Jul 2024 - Aug 2024",
     status: "Ongoing",
     imageUrl: csdotnet,
     technologies: ["C#", ".NET Core", "SQL", "JWT", "REST API", "Azure"],
-    link: ""
+    link: "https://github.com/coreyzhao/AuthRegistrationAPI"
   },
   {
     id: "2",

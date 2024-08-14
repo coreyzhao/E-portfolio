@@ -87,6 +87,11 @@ const Projects = () => (
 
         <Gradient />
       </div>
+      <Section id="" className="flex justify-center items-center">
+        <div className="flex justify-center mt-5 md:mt-10 xl:mt-15 max-w-xl text-center">
+          <p className="text-n-4">Designed in Figma and coded in Visual Studio Code by me. Unit tested with Cypress and built with React.js and Tailwind CSS, deployed with Netlify.</p>
+        </div>
+      </Section>
 
       <Section id="email">
         <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
