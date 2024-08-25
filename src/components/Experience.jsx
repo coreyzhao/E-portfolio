@@ -59,7 +59,7 @@ const Experience = () => {
               <div className="absolute inset-0 flex flex-col justify-start p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-6">Software Developer for BlockChain at McGill</h4>
                 <p className="body-2 mb-[20px] text-n-3 font-inter font-medium">
-                Attending a Solidity Bootcamp where I am learning about smart contracts, decentralized applications
+                Attended a Solidity Bootcamp where I learned about smart contracts, decentralized applications
 	and blockchain architecture. Attended an online bootcamp where I learned the basics of Typescript.
                 </p>
                 <div className="flex flex-wrap justify-start gap-2 mb-5 pr-10">
