@@ -29,7 +29,7 @@ const Experience = () => {
               <div className="absolute inset-0 flex flex-col justify-start p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-6 ">Software Developer Intern at Lottus</h4>
                 <p className="body-2 mb-[20px] text-n-3 pr-10 font-inter font-medium">
-                  Build and maintain critical React components used in Lottus' frontend application. Work Closely with backend developement team in order to implement and handle dynamic api requests
+                  Build and maintain critical React components used in Lottus' frontend application. Work closely with backend developement team in order to implement and handle dynamic api requests.
                 </p> 
                 <div className="flex flex-wrap justify-start gap-2 mb-5 pr-10">
                 {skills1.map((item) => (
