@@ -27,9 +27,10 @@ const Experience = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-start p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-6 ">Software Developer Intern at Lottus</h4>
+                <h4 className="h4 mb-0 ">Software Developer Intern</h4>
+                <h8 className="h8 mb-6 ">Financial Technical Startup - Lottus</h8>
                 <p className="body-2 mb-[20px] text-n-3 pr-10 font-inter font-medium">
-                  Build and maintain critical React components used in Lottus' frontend application. Work closely with backend developement team in order to implement and handle dynamic api requests.
+                  Built and maintained over 20+ critical React components used in Lottus' SaaS web application. Worked closely with the developement team and company executives in order to develop over 10 new features. Implemented and handled over 10+ dynamic api requests in accordance to company standards and best practices.
                 </p> 
                 <div className="flex flex-wrap justify-start gap-2 mb-5 pr-10">
                 {skills1.map((item) => (
@@ -57,10 +58,11 @@ const Experience = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-start p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-6">Software Developer for BlockChain at McGill</h4>
+                <h4 className="h4 mb-0">Software Developer</h4>
+                <h8 className="h8 mb-6 ">McGill Activities & Societies - Blockchain at McGill</h8>
                 <p className="body-2 mb-[20px] text-n-3 font-inter font-medium">
                 Attended a Solidity Bootcamp where I learned about smart contracts, decentralized applications
-	and blockchain architecture. Attended an online bootcamp where I learned the basics of Typescript.
+	and blockchain architecture. Attended an online bootcamp where I attended 4+ courses to learn the basics of Typescript.
                 </p>
                 <div className="flex flex-wrap justify-start gap-2 mb-5 pr-10">
                 {skills2.map((item) => (
@@ -75,7 +77,7 @@ const Experience = () => {
                 </div>
               </div>
               <div className="absolute bottom-5 right-7">
-                <TagLine>Nov 2024 - Present</TagLine>
+                <TagLine>Nov 2023 - May 2024</TagLine>
               </div>
             </div>
 
