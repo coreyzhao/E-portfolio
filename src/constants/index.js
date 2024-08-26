@@ -1,8 +1,8 @@
 
-
 import coreyzh from '../assets/coreyzhwebmern.jpeg';
 import quickapply from '../assets/quickapply.png';
 import csdotnet from '../assets/csdotnet.png';
+import fileorganizer from '../assets/file-organizer.png';
 
 export const navigation = [
   {
@@ -32,9 +32,9 @@ export const projects = [
   {
     id: "0",
     title: "QuickApply",
-    text: "Web app to help job seekers plan and order their job search. Create an account to save essential links and organize job applications with unique notes and statuses",
-    date: "JUN 2024 - AUG 2024",
-    status: "done",
+    text: "Full stack web app to help job seekers plan and order their job search. Create an account to save essential links and organize job applications with unique notes and statuses",
+    date: "JUN 2024 - Sep 2024",
+    status: "inprogress",
     imageUrl: quickapply,
     colorful: true,
     technologies: ["SpringBoot", "Java", "TypeScript", "MongoDB", "React.js", "Docker", "AWS", "REST API"],
@@ -45,13 +45,23 @@ export const projects = [
     title: "AuthRegistrationAPI",
     text: "REST API using C# and .NET Core, designed for secure user registration and authentication. The API incorporates JWT-based authentication, password hashing and a SQL Server database.",
     date: "Jul 2024 - Aug 2024",
-    status: "Ongoing",
+    status: "done",
     imageUrl: csdotnet,
     technologies: ["C#", ".NET Core", "SQL", "JWT", "REST API", "Azure"],
     link: "https://github.com/coreyzhao/AuthRegistrationAPI"
   },
   {
     id: "2",
+    title: "Folder organization script",
+    text: "Python script for macOS that automatically organizes downloaded files into folders based on course codes.",
+    date: "Aug 2024",
+    status: "done",
+    imageUrl: fileorganizer,
+    technologies: ["Python"],
+    link: "https://github.com/coreyzhao/folder-organizer-script"
+  },
+  {
+    id: "3",
     title: "coreyzh website",
     text: "Website built for my personal Instagram account coreyzh. View all my posts through a sectioned home page. Create an account to leave notes and posts in the community section.",
     date: "Jul 2023 - Jan 2024",
