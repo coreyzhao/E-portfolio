@@ -57,7 +57,7 @@ export const projects = [
     date: "Aug 2024",
     status: "done",
     imageUrl: fileorganizer,
-    technologies: ["Python"],
+    technologies: ["Python", "Bash"],
     link: "https://github.com/coreyzhao/folder-organizer-script"
   },
   {
