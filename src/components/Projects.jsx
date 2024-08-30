@@ -13,7 +13,7 @@ const Projects = () => (
     <div className="container md:pb-10">
       <Heading tag="Things I've built in my free time" title="Projects" />
 
-      <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
+      <div className="relative grid gap-6 md:grid-cols-2 lg:grid-cols-3 md:gap-4 md:pb-[7rem]">
         {projects.map((item) => {
           const status = item.status === "done" ? "Done" : "In progress";
           const skills = item.technologies;
@@ -24,18 +24,20 @@ const Projects = () => (
 
           return (
             <div
-              className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
+              className={`md:flex p-0.25 rounded-[2.5rem] ${
                 item.colorful ? "bg-conic-gradient" : "bg-n-6"
+              } ${
+                item.id == 1 ? "md:translate-y-[7rem]" : ""
               }`}
               key={item.id}
             >
               <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
                 
                 <div className="relative z-1">
-                  <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
+                  <div className=" items-center justify-between max-w-[27rem] mb-8 md:mb-12">
                     <Tagline>{item.date}</Tagline>
 
-                    <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
+                    {/* <div className="flex items-center px-4 py-1 mt-3 w-fit bg-n-1 rounded text-n-8">
                       <img
                         className="mr-2.5"
                         src={item.status === "done" ? check2 : loading1}
@@ -44,29 +46,30 @@ const Projects = () => (
                         alt={status}
                       />
                       <div className="tagline">{status}</div>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="mb-10 my-13mx-15">
                     <img
                       className="w-full"
                       src={item.imageUrl}
-                      width={600}
-                      height={400}
+                      width={500}
+                      height={300}
                       alt={item.title}
                     />
                   </div>
-                  <h4 className="h4 mb-4 font-inter font-medium">{item.title}</h4>
+                  <h4 className="h5 mb-2 font-semibold">{item.title}</h4>
+                  <h5 className="h8 mb-4 font-medium">{item.description}</h5>
                   <p className="body-2 text-n-4 mb-10">{item.text}</p>
 
                   <div className="flex flex-wrap justify-start gap-5 mb-20">
                     {skills.map((item) => (
                       <div
-                        className="block relative py-1.5 px-4 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl  md:max-w-[24rem]"
+                        className="block relative py-1 px-3 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl  md:max-w-[24rem]"
                         
                         key={item.id}
                       >
-                          <h7 className="text-sm align-middle">{item}</h7>
+                          <h8 className="text-xs align-middle">{item}</h8>
                       </div>
                     ))}
                   </div>
