@@ -17,14 +17,12 @@ const Experience = () => {
 
         
 
-        <div className="relative pb-20 mt-5">
+        <div className="relative pb-20 mt-0">
           
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[37rem] border border-n-1/10 rounded-3xl overflow-hidden">
-              <div className="absolute inset-0">
-                
-              </div>
+            <div className="relative md:min-h-[37rem] xl:min-h-[30rem] border border-n-1/10 rounded-3xl overflow-hidden">
+              
 
               <div className="absolute inset-0 flex flex-col justify-start p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-0 ">Software Developer Intern</h4>
@@ -52,7 +50,7 @@ const Experience = () => {
               
             </div>
 
-            <div className="relative min-h-[35rem] border border-n-1/10 rounded-3xl overflow-hidden">
+            <div className="relative md:min-h-[37rem] xl:min-h-[30rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 
               </div>

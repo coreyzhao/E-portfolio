@@ -16,7 +16,7 @@ const Home = () => {
     <>
       
       <Section
-      className="pt-[12rem] -mt-[5.25rem]"
+      className="pt-[12rem] -mt-[7.25rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings

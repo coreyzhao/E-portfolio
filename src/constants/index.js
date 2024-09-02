@@ -112,27 +112,27 @@ export const skills = [
     
   },
   {
-    id: "0",
+    id: "1",
     title: "Spring Boot",
     
   },
   {
-    id: "0",
+    id: "2",
     title: "Docker",
     
   },
   {
-    id: "0",
+    id: "3",
     title: "Java",
     
   },
   {
-    id: "0",
+    id: "4",
     title: "C",
     
   },
   {
-    id: "0",
+    id: "5",
     title: "HTML",
     
   },
