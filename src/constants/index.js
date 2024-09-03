@@ -46,12 +46,12 @@ export const projects = [
   {
     id: "1",
     title: "AuthRegistration API",
-    description: ".NET REST API",
+    description: "C# .NET REST API",
     text: "REST API using C# and .NET Core, designed for secure user registration and authentication. The API incorporates JWT-based authentication, password hashing and a SQL Server database.",
     date: "Jul 2024 - Aug 2024",
     status: "done",
     imageUrl: csdotnet,
-    technologies: ["C#", ".NET Core", "SQL", "JWT", "REST API", "Azure"],
+    technologies: ["C#", ".NET Core", "MySQL", "JWT", "REST API", "Azure Data Studio"],
     link: "https://github.com/coreyzhao/AuthRegistrationAPI"
   },
   {
@@ -207,12 +207,17 @@ export const skills1 = [
   },
   {
     id: "0",
-    title: "React.js",
+    title: "React",
     
   },
   {
     id: "0",
     title: "Express.js",
+    
+  },
+  {
+    id: "0",
+    title: "Node.js",
     
   },
   
