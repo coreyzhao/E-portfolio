@@ -16,7 +16,7 @@ const Home = () => {
     <>
       
       <Section
-      className="pt-[12rem] -mt-[7.25rem]"
+      className="pt-[20rem] -mt-[7.25rem] h-[890px]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
@@ -28,10 +28,16 @@ const Home = () => {
         </div>
         
       
-      <Heading
-          title="Corey Zhao"
-          text="Hi there, I'm Corey! I'm an undergraduate of McGill's Class of 2026 and my passion is Computer Science. My interests include software design, cloud technologies and web development."
-      />
+        <div
+          className={`mb-18 ml-[60px] xs:ml-[30px] sm:ml-[50px] md:ml-[100px] lg:mb-15 lg:ml-[180px] md:text-left`}
+        >
+          
+          <h3 className="sm:h3 h5 font-semi-bold sm:max-w-[35rem] max-w-[15rem] leading-20 text-gray-500">
+  Hi, I'm <span className="text-white">Corey</span>. I'm a U2 Computer Science student at <span className="text-white">McGill University</span>
+</h3>
+
+          <p className="body-2 mt-4 text-n-4 sm:max-w-[42rem] max-w-[18rem] sm:text-lg text-base leading-9">I'm passionate about creating robust digital experiences and I strive to use technology as a tool to help make people's lives more fulfilling. My interets include systems design, web development and cloud native technologies.</p>
+        </div>
       
       
 

@@ -6,6 +6,7 @@ import {
 import TagLine from "./Brackets";
 import { skills1 } from "../constants";
 import { skills2 } from "../constants";
+import Heading from "./Heading";
 
 
 const Experience = () => {
@@ -13,15 +14,15 @@ const Experience = () => {
     <Section id="experience">
       
       <div className="container">
-        
+        <Heading tag="technical background" title="Experience" />
 
         
 
-        <div className="relative pb-20 md: -mt-10 lg:-mt-20">
+        <div className="relative pb-20 mt-10">
           
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-1">
-            <div className="relative md:min-h-[35rem] xl:min-h-[27rem] border border-n-1/10 rounded-3xl overflow-hidden">
+            <div className="relative min-h-[49rem] md:min-h-[35rem] xl:min-h-[27rem] border border-n-1/10 rounded-3xl overflow-hidden">
               
 
               <div className="absolute inset-0 flex flex-col justify-start p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
@@ -46,7 +47,7 @@ const Experience = () => {
                     <h7 className="text-xs align-middle font-inter font-medium">{item.title}</h7>
                   </div>
                 ))}
-              </div>
+                </div>
               </div>
               
               <div className="absolute bottom-5 right-7">
@@ -90,7 +91,9 @@ const Experience = () => {
 
           <Gradient />
         </div>
+        
       </div>
+      
     </Section>
   );
 };

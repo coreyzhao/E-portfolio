@@ -16,7 +16,7 @@ export const Gradient = () => {
 
 export const GradientLight = () => {
   return (
-    <div className="absolute top-20 left-1/2 w-full aspect-square bg-radial-gradient from-[#28206C] to-[#28206C]/0 to-70% pointer-events-none" />
+    <div className="absolute top-0 left-1/2 w-full aspect-square bg-radial-gradient from-[#28206C] to-[#28206C]/0 to-50% pointer-events-none" />
   );
 };
 
