@@ -1,5 +1,6 @@
 import pin_icon from "../assets/pin_icon.png"
 
+/* Home image disabled for now */
 const HomeImage = ({ className }) => {
   return (
     <div
