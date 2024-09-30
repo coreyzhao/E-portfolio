@@ -9,11 +9,13 @@ import GlassTabs from "./GlassTabs";
 import Heading from "./Heading";
 import { GradientLight, GradientLightLeft } from "./design/Hero";
 
+/* Home */
 const Home = () => {
   const parallaxRef = useRef(null);
 
   return (
     <>
+      
       
       <Section
       className="pt-[20rem] -mt-[7.25rem] h-[890px]"
