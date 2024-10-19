@@ -26,7 +26,7 @@ const Experience = () => {
               
 
               <div className="absolute inset-0 flex flex-col justify-start p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-0 ">Software Developer Intern</h4>
+                <h4 className="h4 mb-0 text-2xl md:text-3xl">Software Developer Intern</h4>
                 <h8 className="h8 mb-6 ">Financial Technical Startup - Lottus</h8>
                 <p className="body-2 mb-[10px] text-n-3 pr-10 font-inter font-medium">
                   - Developed and maintained 20+ components in React 18 for a SaaS web application driving enhanced functionality and user experience
